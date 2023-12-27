@@ -1,13 +1,16 @@
 // Importing necessary modules and components
 "use client";
-import React, { useEffect, useState } from 'react';
-import Link from 'next/link';
-import Image from 'next/image';
-import PropTypes from 'prop-types';
-import { useDispatch } from 'react-redux';
-import HeaderNavbar from '../navbar/HeaderNavbar';
-import NiceSelect from '@/plugins/niceSelect/NiceSelect';
-import { toggleMobileMenu, toggleOffCanvas } from '@/rtk/features/global/globalSlice';
+import React, { useEffect, useState } from "react";
+import Link from "next/link";
+import Image from "next/image";
+import PropTypes from "prop-types";
+import { useDispatch } from "react-redux";
+import HeaderNavbar from "../navbar/HeaderNavbar";
+import NiceSelect from "@/plugins/niceSelect/NiceSelect";
+import {
+  toggleMobileMenu,
+  toggleOffCanvas,
+} from "@/rtk/features/global/globalSlice";
 
 /**
  * Header Component
@@ -18,8 +21,8 @@ import { toggleMobileMenu, toggleOffCanvas } from '@/rtk/features/global/globalS
 
 export default function Header({
   layout,
-  select_color = 'dark',
-  social_menu_color = 'dark',
+  select_color = "dark",
+  social_menu_color = "dark",
 }) {
   const dispatch = useDispatch();
   const [isSticky, setIsSticky] = useState(false);
@@ -38,21 +41,16 @@ export default function Header({
     };
 
     // Add event listener for scroll
-    window.addEventListener('scroll', handleScroll);
+    window.addEventListener("scroll", handleScroll);
 
     // Clean up event listener on component unmount
     return () => {
-      window.removeEventListener('scroll', handleScroll);
+      window.removeEventListener("scroll", handleScroll);
     };
   }, []);
 
   // language options
-  const options = [
-    'English',
-    'Bangla',
-    'Hindi',
-    'Arabic',
-  ];
+  const options = ["English", "Bangla", "Hindi", "Arabic"];
 
   // Handle select change event
   const handleSelectChange = (selectedValue) => {
@@ -61,7 +59,11 @@ export default function Header({
 
   // Return the JSX content for the Header component
   return (
-    <header className={`header-section position-relative z-2 header-sticky ${layout === 2 && 'header-style-2'}  ${isSticky && 'sticky-on'}`}>
+    <header
+      className={`header-section position-relative z-2 header-sticky ${
+        layout === 2 && "header-style-2"
+      }  ${isSticky && "sticky-on"}`}
+    >
       <div className="container">
         {/* Infobar section */}
         <div className="infobar py-2 d-none d-lg-block">
@@ -71,20 +73,28 @@ export default function Header({
               <div className="infobar-content d-flex align-items-center">
                 <a
                   href="tel:1044123456789"
-                  className={`mb-0 fs-sm fw-semibold ${layout === 1 && 'text-white'}`}
+                  className={`mb-0 fs-sm fw-semibold ${
+                    layout === 1 && "text-white"
+                  }`}
                 >
-                  <span className="me-2"><i className="fa-solid fa-phone"></i></span>
+                  <span className="me-2">
+                    <i className="fa-solid fa-phone"></i>
+                  </span>
                   +1(044) 123 456 789
                 </a>
-                <p className={`fs-sm mb-0 fw-semibold ${layout === 1 && 'text-white'}`}>
+                {/* <p className={`fs-sm mb-0 fw-semibold ${layout === 1 && 'text-white'}`}>
                   <span className="me-2"><i className="fa-solid fa-location-dot"></i></span>
                   27 Divi ST, Berlin, Germany
-                </p>
+                </p> */}
                 <a
                   href="mailto:info@crete.com"
-                  className={`fs-sm fw-semibold ${layout === 1 && 'text-white'}`}
+                  className={`fs-sm fw-semibold ${
+                    layout === 1 && "text-white"
+                  }`}
                 >
-                  <span className="me-2"><i className="fa-solid fa-envelope"></i></span>
+                  <span className="me-2">
+                    <i className="fa-solid fa-envelope"></i>
+                  </span>
                   info@crete.com
                 </a>
               </div>
@@ -92,24 +102,47 @@ export default function Header({
             <div className="col-xl-6 col-lg-5">
               {/* Infobar right section */}
               <div
-                className={`d-flex align-items-center justify-content-end gap-5 infobar-right ${select_color === 'dark' && 'info-small-white'}`}
+                className={`d-flex align-items-center justify-content-end gap-5 infobar-right ${
+                  select_color === "dark" && "info-small-white"
+                }`}
               >
-                <div className={`language-switcher ${select_color === 'light' && 'bg-transparent list-headings-color'}`}>
+                <div
+                  className={`language-switcher ${
+                    select_color === "light" &&
+                    "bg-transparent list-headings-color"
+                  }`}
+                >
                   {/* Language selector */}
                   <NiceSelect
                     options={options}
                     defaultValue={options[0]}
                     onChange={handleSelectChange}
-                    wrapperClass={`${select_color === 'light' && 'text-white'} nice_select`}
+                    wrapperClass={`${
+                      select_color === "light" && "text-white"
+                    } nice_select`}
                   />
                 </div>
-                <div className={`info-social border-left ${social_menu_color === 'light' && 'header-icons-white'}`}>
+                <div
+                  className={`info-social border-left ${
+                    social_menu_color === "light" && "header-icons-white"
+                  }`}
+                >
                   {/* Social menu */}
-                  <Link href="/"><i className="fab fa-facebook-f"></i></Link>
-                  <Link href="/"><i className="fab fa-twitter"></i></Link>
-                  <Link href="/"><i className="fab fa-instagram"></i></Link>
-                  <Link href="/"><i className="fab fa-behance"></i></Link>
-                  <Link href="/"><i className="fab fa-youtube"></i></Link>
+                  <Link href="/">
+                    <i className="fab fa-facebook-f"></i>
+                  </Link>
+                  <Link href="/">
+                    <i className="fab fa-twitter"></i>
+                  </Link>
+                  <Link href="/">
+                    <i className="fab fa-instagram"></i>
+                  </Link>
+                  <Link href="/">
+                    <i className="fab fa-behance"></i>
+                  </Link>
+                  <Link href="/">
+                    <i className="fab fa-youtube"></i>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -176,7 +209,7 @@ export default function Header({
 
 // Prop Types for the Header component
 Header.propTypes = {
-  select_color: PropTypes.oneOf(['light', 'dark']),
-  social_menu_color: PropTypes.oneOf(['light', 'dark']),
+  select_color: PropTypes.oneOf(["light", "dark"]),
+  social_menu_color: PropTypes.oneOf(["light", "dark"]),
   layout: PropTypes.oneOf([1, 2]).isRequired,
 };
