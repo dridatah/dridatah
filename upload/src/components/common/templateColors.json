@@ -1,0 +1,26 @@
+[
+  {
+    "className": "purple",
+    "title": "purple"
+  },
+  {
+    "className": "red",
+    "title": "red"
+  },
+  {
+    "className": "blue",
+    "title": "blue"
+  },
+  {
+    "className": "orange",
+    "title": "orange"
+  },
+  {
+    "className": "green",
+    "title": "green"
+  },
+  {
+    "className": "primary",
+    "title": "primary"
+  }
+]

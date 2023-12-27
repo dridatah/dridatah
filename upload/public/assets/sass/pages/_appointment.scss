@@ -1,0 +1,52 @@
+.app-box {
+    @include screen-992 {
+        padding: 40px 32px;
+        .image-wrapper {
+            img {
+                width: 100%;
+            }
+        }
+    }
+}
+.app-form {
+    padding-right: 60px;
+    .input-field {
+        input {
+            width: 100%;
+            padding: 20px 30px;
+            border: 1px solid transparent; 
+            border-radius: 4px;
+            &:focus {
+                border-color: var(--primary-color);
+            }
+        }
+        .nice-select {
+            width: 100%;
+            height: 60px;
+            border-radius: 5px;
+            border: 0;
+            line-height: 60px;
+            &::after {
+                right: 20px;
+            }
+            .list {
+                width: 100%;
+            }
+        }
+    }
+    .double-input {
+        .input-field {
+            width: 50%;
+        }
+    }
+    @include portrait-phone {
+        padding-right: 0;
+        .double-input {
+            flex-wrap: wrap;
+            .input-field {
+                width: 100%;
+            }
+        }
+    }
+
+}
