@@ -1,7 +1,7 @@
-"use client"
-import Image from 'next/image'
-import { PropTypes } from 'prop-types';
-import React from 'react'
+"use client";
+import Image from "next/image";
+import { PropTypes } from "prop-types";
+import React from "react";
 
 /**
  * Contact Section Component
@@ -10,7 +10,8 @@ import React from 'react'
 
 export default function ContactSection({ wrapper_class }) {
   return (
-    <section id="contact"
+    <section
+      id="contact"
       className={`contact-section dark-bg-color ptb-100 position-relative z-1 overflow-hidden ${wrapper_class}`}
     >
       <span className="circle-shape position-absolute z--1 rounded-circle"></span>
@@ -23,7 +24,9 @@ export default function ContactSection({ wrapper_class }) {
               <span
                 suppressHydrationWarning
                 className="cr-subtitle text-white position-relative fw-semibold wow fadeInUp d-inline-block"
-              >100% discount on early purchase</span>
+              >
+                100% discount on early purchase
+              </span>
               <h2
                 suppressHydrationWarning
                 className="mb-4 mt-4 text-white wow fadeInUp"
@@ -31,7 +34,11 @@ export default function ContactSection({ wrapper_class }) {
               >
                 Let's Work Together
               </h2>
-              <p suppressHydrationWarning className="lead fw-medium wow fadeInUp" data-wow-delay="0.3s">
+              <p
+                suppressHydrationWarning
+                className="lead fw-medium wow fadeInUp"
+                data-wow-delay="0.3s"
+              >
                 Interdum condimentum congue conubia netus neque lentesque
                 curabitur etiam nisl montes, gravida luctus nec morbi dignissim
                 ridiculus nam hendrerit ullamcorper, euismod
@@ -42,9 +49,7 @@ export default function ContactSection({ wrapper_class }) {
                   className="d-flex align-items-center gap-4 wow fadeInUp"
                   data-wow-delay="0.1s"
                 >
-                  <span
-                    className="icon d-inline-flex align-items-center justify-content-center rounded-circle bg-white flex-shrink-0"
-                  >
+                  <span className="icon d-inline-flex align-items-center justify-content-center rounded-circle bg-white flex-shrink-0">
                     <Image
                       src="/assets/images/icons/mail.svg"
                       alt="mail"
@@ -55,10 +60,11 @@ export default function ContactSection({ wrapper_class }) {
                   </span>
                   <div>
                     <span className="fw-medium fs-xl">Mail Us</span>
-                    <a href="mailto:info@example.com"
-                    ><h6 className="mb-0 text-white fw-semibold mt-1">
-                        info@example.com
-                      </h6></a>
+                    <a href="mailto:info@dridatah.com">
+                      <h6 className="mb-0 text-white fw-semibold mt-1">
+                        info@dridatah.com
+                      </h6>
+                    </a>
                   </div>
                 </li>
                 <li
@@ -66,9 +72,7 @@ export default function ContactSection({ wrapper_class }) {
                   className="d-flex align-items-center gap-4 wow fadeInUp"
                   data-wow-delay="0.2s"
                 >
-                  <span
-                    className="icon d-inline-flex align-items-center justify-content-center rounded-circle bg-white flex-shrink-0"
-                  >
+                  <span className="icon d-inline-flex align-items-center justify-content-center rounded-circle bg-white flex-shrink-0">
                     <Image
                       src="/assets/images/icons/phone.svg"
                       alt="mail"
@@ -78,21 +82,20 @@ export default function ContactSection({ wrapper_class }) {
                     />
                   </span>
                   <div>
-                    <span className="fw-medium fs-xl">Cal Us</span>
-                    <a href="tel:0045611227890"
-                    ><h6 className="mb-0 text-white fw-semibold mt-1">
-                        (00) 456 1122 7890
-                      </h6></a>
+                    <span className="fw-medium fs-xl">Call Us</span>
+                    <a href="tel:0045611227890">
+                      <h6 className="mb-0 text-white fw-semibold mt-1">
+                        +91 9080 617 982
+                      </h6>
+                    </a>
                   </div>
                 </li>
-                <li
+                {/* <li
                   suppressHydrationWarning
                   className="d-flex align-items-center gap-4 wow fadeInUp"
                   data-wow-delay="0.3s"
                 >
-                  <span
-                    className="icon d-inline-flex align-items-center justify-content-center rounded-circle bg-white flex-shrink-0"
-                  >
+                  <span className="icon d-inline-flex align-items-center justify-content-center rounded-circle bg-white flex-shrink-0">
                     <Image
                       src="/assets/images/icons/location.svg"
                       alt="mail"
@@ -107,7 +110,7 @@ export default function ContactSection({ wrapper_class }) {
                       214 Berlin, Germany
                     </h6>
                   </div>
-                </li>
+                </li> */}
               </ul>
             </div>
           </div>
@@ -115,8 +118,9 @@ export default function ContactSection({ wrapper_class }) {
             <div className="contact-form-box bg-white">
               <h3 className="mb-32">
                 Get a free
-                <span className="primary-bg-light primary-text-color px-2"
-                >quote now</span>
+                <span className="primary-bg-light primary-text-color px-2">
+                  quote now
+                </span>
               </h3>
               <form className="contact-form">
                 <label>
@@ -131,7 +135,7 @@ export default function ContactSection({ wrapper_class }) {
                   Email*
                   <input
                     type="email"
-                    placeholder="info@example.com"
+                    placeholder="info@dridatah.com"
                     className="theme-input mt-2"
                   />
                 </label>
@@ -152,7 +156,7 @@ export default function ContactSection({ wrapper_class }) {
         </div>
       </div>
     </section>
-  )
+  );
 }
 
 // PropTypes for the ContactSection component

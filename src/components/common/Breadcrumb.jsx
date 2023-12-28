@@ -1,6 +1,6 @@
-import Link from 'next/link';
-import React from 'react';
-import PropTypes from 'prop-types';
+import Link from "next/link";
+import React from "react";
+import PropTypes from "prop-types";
 
 /**
  * Breadcrumb Component
@@ -11,10 +11,13 @@ import PropTypes from 'prop-types';
 export default function Breadcrumb({
   title,
   page,
-  backgroundImg = '/assets/images/banner/breadcrumb.jpg'
+  backgroundImg = "https://crete-theta.vercel.app/assets/images/banner/breadcrumb.jpg",
 }) {
   return (
-    <div className="breadcrumb-section position-relative z-1 overflow-hidden" style={{ backgroundImage: `url(${backgroundImg})` }}>
+    <div
+      className="breadcrumb-section position-relative z-1 overflow-hidden"
+      style={{ backgroundImage: `url(${backgroundImg})` }}
+    >
       <span className="circle-shape-1 rounded-circle position-absolute"></span>
       <span className="circle-shape-2 rounded-circle position-absolute"></span>
       <span className="circle-shape-3 rounded-circle position-absolute"></span>
@@ -24,7 +27,9 @@ export default function Breadcrumb({
             <div className="breadcrumb-content">
               <h1 className="text-white mb-3 display-2 fw-bold">{title}</h1>
               <ul>
-                <li><Link href="/">Home</Link></li>
+                <li>
+                  <Link href="/">Home</Link>
+                </li>
                 <li>{page}</li>
               </ul>
             </div>

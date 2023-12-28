@@ -1,7 +1,8 @@
-"use client"
-import React from 'react'
-import BrandSection from './BrandSection'
-import ServiceSection from '../home_2/ServiceSection'
+"use client";
+import React from "react";
+import BrandSection from "./BrandSection";
+// import ServiceSection from "../home_2/ServiceSection";
+import ServiceSection from "@/components/home_1/ServiceSection";
 
 export default function BrandNdServiceWrapper() {
   return (
@@ -11,5 +12,5 @@ export default function BrandNdServiceWrapper() {
       <BrandSection />
       <ServiceSection />
     </section>
-  )
+  );
 }

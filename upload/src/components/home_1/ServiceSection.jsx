@@ -1,28 +1,28 @@
-"use client"
-import React from 'react'
-import SingleServiceLayoutOne from '../single/service/SingleServiceLayoutOne'
+"use client";
+import React from "react";
+import SingleServiceLayoutOne from "../single/service/SingleServiceLayoutOne";
 
 export default function ServiceSection() {
   return (
-    <section
-      className="service-section ptb-100 dark-bg-color position-relative z-1 overflow-hidden"
-    >
+    <section className="service-section ptb-100 dark-bg-color position-relative z-1 overflow-hidden">
       <span className="circle-shape-1 position-absolute z--1"></span>
       <span className="circle-shape-2 position-absolute z--1"></span>
       <div className="container">
         <div className="row justify-content-center">
           <div className="col-xl-6 col-lg-8">
             <div className="section-title text-center">
-              <span
+              {/* <span
                 suppressHydrationWarning
                 className="cr-subtitle text-white fw-semibold position-relative d-inline-block wow fadeInUp"
-              >50% discount on early purchase</span>
+              >
+                50% discount on early purchase
+              </span> */}
               <h2
                 suppressHydrationWarning
                 className="text-white mt-3 mb-4 wow fadeInUp"
                 data-wow-delay="0.2s"
               >
-                Our Service Area
+                Our Service Areaasda
               </h2>
               <p
                 suppressHydrationWarning
@@ -79,5 +79,5 @@ export default function ServiceSection() {
         </div>
       </div>
     </section>
-  )
+  );
 }

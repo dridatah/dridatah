@@ -1,6 +1,6 @@
-import Image from 'next/image'
-import Link from 'next/link'
-import React from 'react'
+import Image from "next/image";
+import Link from "next/link";
+import React from "react";
 
 export default function FooterTwo() {
   return (
@@ -13,18 +13,36 @@ export default function FooterTwo() {
             <div className="col-xl-3 col-lg-4 col-md-6">
               <div className="footer-widget text-widget">
                 <Image
-                  src="/assets/images/logo-white.png"
+                  src="https://dridatah.com/images/logo-light.png"
                   alt="logo"
                   width={143}
                   height={44}
                   className="img-fluid"
                 />
-                <p className="my-32 text-white">Tempus nula rhoncus euismod curae masa cras justo quisque semper usto molestie primis porttitor </p>
+                <p className="my-32 text-white">
+                  Tempus nula rhoncus euismod curae masa cras justo quisque
+                  semper usto molestie primis porttitor{" "}
+                </p>
                 <div className="footer-social">
-                  <Link href="/"><i className="fab fa-facebook-f"></i></Link>
-                  <Link href="/"><i className="fab fa-twitter"></i></Link>
-                  <Link href="/"><i className="fab fa-linkedin"></i></Link>
-                  <Link href="/"><i className="fab fa-skype"></i></Link>
+                  <Link href="/">
+                    <i className="fab fa-facebook-f"></i>
+                  </Link>
+                  <Link href="/">
+                    <i className="fab fa-linkedin"></i>
+                  </Link>
+                  {/* <Link href="/">
+                    <i className="fab fa-twitter"></i>
+                  </Link> */}
+                  <Link href="/">
+                    <i className="fab fa-instagram"></i>
+                  </Link>
+
+                  {/* <Link href="/">
+                    <i className="fab fa-behance"></i>
+                  </Link> */}
+                  <Link href="/">
+                    <i className="fab fa-youtube"></i>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -32,10 +50,18 @@ export default function FooterTwo() {
               <div className="footer-widget nav-widget">
                 <h6 className="widget-title">Company</h6>
                 <ul className="footer-links">
-                  <li><Link href="/">Help Center</Link></li>
-                  <li><Link href="/">Terms & Conditions</Link></li>
-                  <li><Link href="/">Privacy Policy</Link></li>
-                  <li><Link href="/contact">Contact Us</Link></li>
+                  <li>
+                    <Link href="/">Help Center</Link>
+                  </li>
+                  <li>
+                    <Link href="/">Terms & Conditions</Link>
+                  </li>
+                  <li>
+                    <Link href="/">Privacy Policy</Link>
+                  </li>
+                  <li>
+                    <Link href="/contact">Contact Us</Link>
+                  </li>
                 </ul>
               </div>
             </div>
@@ -49,7 +75,7 @@ export default function FooterTwo() {
                 </ul>
               </div>
             </div>
-            <div className="col-xl-4 col-lg-4 col-md-6">
+            {/* <div className="col-xl-4 col-lg-4 col-md-6">
               <div className="footer-widget footer-newsletter">
                 <h6 className="widget-title">Sign up for the newsletter</h6>
                 <form>
@@ -65,7 +91,7 @@ export default function FooterTwo() {
                   </label>
                 </form>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
@@ -74,7 +100,9 @@ export default function FooterTwo() {
           <div className="row">
             <div className="col-md-6">
               <div className="copyright-text">
-                <p className="mb-0 text-white">&copy;2023 Crete. All Rights Reserved</p>
+                <p className="mb-0 text-white">
+                  &copy;2024 Dridatah. All Rights Reserved
+                </p>
               </div>
             </div>
             <div className="col-md-6">
@@ -88,5 +116,5 @@ export default function FooterTwo() {
         </div>
       </div>
     </footer>
-  )
+  );
 }

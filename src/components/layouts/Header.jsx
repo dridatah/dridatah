@@ -80,14 +80,14 @@ export default function Header({
                   <span className="me-2">
                     <i className="fa-solid fa-phone"></i>
                   </span>
-                  +1(044) 123 456 789
+                  +91 9080 617 982
                 </a>
                 {/* <p className={`fs-sm mb-0 fw-semibold ${layout === 1 && 'text-white'}`}>
                   <span className="me-2"><i className="fa-solid fa-location-dot"></i></span>
                   27 Divi ST, Berlin, Germany
                 </p> */}
                 <a
-                  href="mailto:info@crete.com"
+                  href="mailto:info@dridatah.com"
                   className={`fs-sm fw-semibold ${
                     layout === 1 && "text-white"
                   }`}
@@ -95,7 +95,7 @@ export default function Header({
                   <span className="me-2">
                     <i className="fa-solid fa-envelope"></i>
                   </span>
-                  info@crete.com
+                  info@dridatah.com
                 </a>
               </div>
             </div>
@@ -112,18 +112,17 @@ export default function Header({
                     "bg-transparent list-headings-color"
                   }`}
                 >
-                  {/* Language selector */}
-                  <NiceSelect
+                  {/* <NiceSelect
                     options={options}
                     defaultValue={options[0]}
                     onChange={handleSelectChange}
                     wrapperClass={`${
                       select_color === "light" && "text-white"
                     } nice_select`}
-                  />
+                  /> */}
                 </div>
                 <div
-                  className={`info-social border-left ${
+                  className={`info-social  ${
                     social_menu_color === "light" && "header-icons-white"
                   }`}
                 >
@@ -132,14 +131,18 @@ export default function Header({
                     <i className="fab fa-facebook-f"></i>
                   </Link>
                   <Link href="/">
-                    <i className="fab fa-twitter"></i>
+                    <i className="fab fa-linkedin"></i>
                   </Link>
+                  {/* <Link href="/">
+                    <i className="fab fa-twitter"></i>
+                  </Link> */}
                   <Link href="/">
                     <i className="fab fa-instagram"></i>
                   </Link>
-                  <Link href="/">
+
+                  {/* <Link href="/">
                     <i className="fab fa-behance"></i>
-                  </Link>
+                  </Link> */}
                   <Link href="/">
                     <i className="fab fa-youtube"></i>
                   </Link>
@@ -156,11 +159,12 @@ export default function Header({
                 {/* Logo */}
                 <Link href="/">
                   <Image
-                    src="/assets/images/logo.png"
+                    src="https://dridatah.com/images/logo-dark.png"
                     alt="logo"
                     className="img-fluid"
                     width={157}
                     height={44}
+                    key="asdasds"
                   />
                 </Link>
               </div>
@@ -179,7 +183,7 @@ export default function Header({
                   Contact Us
                 </Link>
                 {/* Offcanvas toggle button */}
-                <button
+                {/* <button
                   type="button"
                   onClick={() => dispatch(toggleOffCanvas())}
                   className="header-toggle offcanvus-toggle d-none d-lg-inline-flex"
@@ -187,7 +191,7 @@ export default function Header({
                   <span></span>
                   <span></span>
                   <span></span>
-                </button>
+                </button> */}
                 {/* Mobile menu toggle button */}
                 <button
                   type="button"

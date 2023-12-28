@@ -80,14 +80,14 @@ export default function Header({
                   <span className="me-2">
                     <i className="fa-solid fa-phone"></i>
                   </span>
-                  +1(044) 123 456 789
+                  +91 9080 617 982
                 </a>
                 {/* <p className={`fs-sm mb-0 fw-semibold ${layout === 1 && 'text-white'}`}>
                   <span className="me-2"><i className="fa-solid fa-location-dot"></i></span>
                   27 Divi ST, Berlin, Germany
                 </p> */}
                 <a
-                  href="mailto:info@crete.com"
+                  href="mailto:info@dridatah.com"
                   className={`fs-sm fw-semibold ${
                     layout === 1 && "text-white"
                   }`}
@@ -95,7 +95,7 @@ export default function Header({
                   <span className="me-2">
                     <i className="fa-solid fa-envelope"></i>
                   </span>
-                  info@crete.com
+                  info@dridatah.com
                 </a>
               </div>
             </div>
