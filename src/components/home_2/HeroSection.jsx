@@ -127,7 +127,7 @@ export default function HeroSection() {
           <div className="col-xl-5 col-lg-6">
             <div className="hero-image">
               <Image
-                src="https://crete-theta.vercel.app/_next/image?url=%2Fassets%2Fimages%2Fhome-2%2Fhero-man.png&w=750&q=75"
+                src="/assets/images/home-2/hero-man.png"
                 alt="hero man"
                 className="hero-man"
                 width={736}

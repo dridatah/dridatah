@@ -11,7 +11,7 @@ import PropTypes from "prop-types";
 export default function Breadcrumb({
   title,
   page,
-  backgroundImg = "https://crete-theta.vercel.app/assets/images/banner/breadcrumb.jpg",
+  backgroundImg = "/assets/images/banner/breadcrumb.jpg",
 }) {
   return (
     <div

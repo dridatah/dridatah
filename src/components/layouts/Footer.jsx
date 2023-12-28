@@ -32,7 +32,7 @@ export default function Footer() {
             <div className="col-xl-3 col-lg-4">
               <div className="footer-widget text-widget">
                 <Image
-                  src="https://dridatah.com/images/logo-light.png"
+                  src="/assets/images/logo-white.png"
                   alt="logo"
                   width={143}
                   height={44}
@@ -129,7 +129,7 @@ export default function Footer() {
             </div>
             <div className="col-md-6">
               <div className="copyright-links">
-                <Link href="/">Security</Link>
+                {/* <Link href="/">Security</Link> */}
                 <Link href="/">Privacy & Policy</Link>
                 <Link href="/">Terms & Services</Link>
               </div>

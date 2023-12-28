@@ -674,3 +674,10 @@
     letter-spacing: 5px;
   }
 }
+
+.grayscale {
+  filter: grayscale(100%);
+}
+.grayscale-invert {
+  filter: grayscale(100%) invert(1);
+}

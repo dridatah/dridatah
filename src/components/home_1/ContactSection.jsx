@@ -21,12 +21,12 @@ export default function ContactSection({ wrapper_class }) {
         <div className="row align-items-center g-5">
           <div className="col-xl-6">
             <div className="contact-info">
-              <span
+              {/* <span
                 suppressHydrationWarning
                 className="cr-subtitle text-white position-relative fw-semibold wow fadeInUp d-inline-block"
               >
                 100% discount on early purchase
-              </span>
+              </span> */}
               <h2
                 suppressHydrationWarning
                 className="mb-4 mt-4 text-white wow fadeInUp"
@@ -39,9 +39,11 @@ export default function ContactSection({ wrapper_class }) {
                 className="lead fw-medium wow fadeInUp"
                 data-wow-delay="0.3s"
               >
-                Interdum condimentum congue conubia netus neque lentesque
-                curabitur etiam nisl montes, gravida luctus nec morbi dignissim
-                ridiculus nam hendrerit ullamcorper, euismod
+                Unleash your digital potential. Share your project vision and
+                requirements for expert insights and a tailored development
+                process, crafted by our dedicated tech and product specialists.
+                Expect a comprehensive response within 24 hours. No spam, just
+                direct collaboration.
               </p>
               <ul className="contact-info-list mt-5">
                 <li

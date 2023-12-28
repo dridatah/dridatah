@@ -42,7 +42,7 @@ export default function ServiceSection() {
             wrapper_class={`col-md-6`}
             title={`Product Design`}
             des={`Craft user-centric experiences that propel your startup's success.`}
-            link={`/service/details`}
+            link={`/service/workflow`}
             thumbnail={`/assets/images/icons/icon-1.svg`}
             data_wow_delay={`0.1s`}
           />
@@ -50,7 +50,7 @@ export default function ServiceSection() {
             wrapper_class={`col-md-6`}
             title={`UI Design`}
             des={`Design stunning interfaces that captivate your audience and elevate your brand.`}
-            link={`/service/details`}
+            link={`/service/workflow`}
             thumbnail={`/assets/images/icons/icon-2.svg`}
             data_wow_delay={`0.2s`}
           />
@@ -58,7 +58,7 @@ export default function ServiceSection() {
             wrapper_class={`col-md-6`}
             title={`Development`}
             des={`Build a robust and scalable software foundation for your innovative ideas.`}
-            link={`/service/details`}
+            link={`/service/workflow`}
             thumbnail={`/assets/images/icons/icon-4.svg`}
             data_wow_delay={`0.3s`}
           />
@@ -66,15 +66,15 @@ export default function ServiceSection() {
             wrapper_class={`col-md-6`}
             title={`Testing`}
             des={`Ensure seamless and bug-free user experiences with meticulous testing across all platforms.`}
-            link={`/service/details`}
-            thumbnail={`/assets/images/icons/icon-3.svg`}
+            link={`/service/workflow`}
+            thumbnail={`/assets/images/icons/icon-6.svg`}
             data_wow_delay={`0.4s`}
           />
           <SingleServiceLayoutOne
             wrapper_class={`col-md-6`}
             title={`DevOps`}
             des={`Streamline delivery and deployment, allowing you to focus on what matters most.`}
-            link={`/service/details`}
+            link={`/service/workflow`}
             thumbnail={`/assets/images/icons/icon-3.svg`}
             data_wow_delay={`0.4s`}
           />
@@ -82,8 +82,8 @@ export default function ServiceSection() {
             wrapper_class={`col-md-6`}
             title={`Continuous Support & Maintenance`}
             des={`Your long-term tech partner, keeping your software performing at its peak for sustained growth.`}
-            link={`/service/details`}
-            thumbnail={`/assets/images/icons/icon-3.svg`}
+            link={`/service/workflow`}
+            thumbnail={`/assets/images/icons/icon-5.svg`}
             data_wow_delay={`0.4s`}
           />
         </div>

@@ -127,25 +127,31 @@ export default function Header({
                   }`}
                 >
                   {/* Social menu */}
-                  <Link href="/">
+                  <Link href="https://www.facebook.com/dridatah" target="blank">
                     <i className="fab fa-facebook-f"></i>
                   </Link>
-                  <Link href="/">
+                  <Link
+                    href="https://www.linkedin.com/company/13283941"
+                    target="blank"
+                  >
                     <i className="fab fa-linkedin"></i>
                   </Link>
                   {/* <Link href="/">
                     <i className="fab fa-twitter"></i>
                   </Link> */}
-                  <Link href="/">
+                  <Link
+                    href="https://www.instagram.com/dridatah/"
+                    target="blank"
+                  >
                     <i className="fab fa-instagram"></i>
                   </Link>
 
                   {/* <Link href="/">
                     <i className="fab fa-behance"></i>
                   </Link> */}
-                  <Link href="/">
+                  {/* <Link href="/">
                     <i className="fab fa-youtube"></i>
-                  </Link>
+                  </Link> */}
                 </div>
               </div>
             </div>
@@ -159,7 +165,7 @@ export default function Header({
                 {/* Logo */}
                 <Link href="/">
                   <Image
-                    src="https://dridatah.com/images/logo-dark.png"
+                    src="/assets/images/logo.png"
                     alt="logo"
                     className="img-fluid"
                     width={157}

@@ -12,7 +12,7 @@ export default function ContactSection() {
               thumbnail={`/assets/images/contact/ct-1.jpg`}
               icon={`/assets/images/icons/icon-14.svg`}
               title={`Call Us 24/7`}
-              subtitle={`+584 (25) 21453`}
+              subtitle={`+91 9080 617 982`}
             />
           </div>
           <div className="col-xl-4 col-sm-6">
@@ -28,7 +28,7 @@ export default function ContactSection() {
               thumbnail={`/assets/images/contact/ct-3.jpg`}
               icon={`/assets/images/icons/icon-16.svg`}
               title={`Service Station`}
-              subtitle={`25 Hilton Street, Aus.`}
+              subtitle={`Trivandrum, Kerala`}
             />
           </div>
         </div>

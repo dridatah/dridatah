@@ -1,13 +1,13 @@
-"use client"
-import React from 'react'
+"use client";
+import React from "react";
 import Slider from "react-slick";
 import CountUp from "react-countup";
-import VisibilitySensor from 'react-visibility-sensor';
-import SingleTestimonialLayountTwo from '../single/testimonial/SingleTestimonialLayountTwo';
+import VisibilitySensor from "react-visibility-sensor";
+import SingleTestimonialLayountTwo from "../single/testimonial/SingleTestimonialLayountTwo";
 export default function TestimonialSection() {
-  // Slider config 
+  // Slider config
   const settings = {
-    className: 'cr2-feedback-slider',
+    className: "cr2-feedback-slider",
     slidesToShow: 4,
     vertical: true,
     arrows: false,
@@ -23,7 +23,7 @@ export default function TestimonialSection() {
           verticalSwiping: false,
           slidesToShow: 2,
           centerMode: false,
-        }
+        },
       },
       {
         breakpoint: 992,
@@ -32,19 +32,26 @@ export default function TestimonialSection() {
           vertical: false,
           verticalSwiping: false,
           centerMode: false,
-        }
-      }
-    ]
-  }
+        },
+      },
+    ],
+  };
   return (
     <section className="cr2-feedback-section overflow-hidden">
       <div className="container">
         <div className="row">
           <div className="col-xl-6">
             <div className="cr2-feedback-left ptb-100">
-              <span className="cr-subtitle position-relative text-white fw-semibold">Customer Testimonial</span>
-              <h2 className="mt-4 mb-32 text-white">What our customers have to say</h2>
-              <p className="mb-60 text-white mx-470 fw-medium">Vulputate tincidunt feugiat pharetra primis tortor auctor posuer iaculis nisl phasellus quam pellentesque</p>
+              <span className="cr-subtitle position-relative text-white fw-semibold">
+                Customer Testimonial
+              </span>
+              <h2 className="mt-4 mb-32 text-white">
+                What our customers have to say
+              </h2>
+              <p className="mb-60 text-white mx-470 fw-medium">
+                Hear How Dridatah Delights Clients with Transformative
+                Solutions.
+              </p>
               <div className="d-flex align-items-center cr2-feedback-counter">
                 <div>
                   <h3 className="mb-1 text-white fs-40">
@@ -55,12 +62,17 @@ export default function TestimonialSection() {
                         </VisibilitySensor>
                       )}
                     </CountUp>
-                    <span>+</span></h3>
-                  <span className="text-white fw-medium">Full 5 Star review</span>
+                    <span>+</span>
+                  </h3>
+                  <span className="text-white fw-medium">
+                    Full 5 Star review
+                  </span>
                 </div>
                 <div>
                   <h3 className="mb-1 text-white fs-40">4.8</h3>
-                  <span className="text-white fw-medium">Out of 5 average rating</span>
+                  <span className="text-white fw-medium">
+                    Out of 5 average rating
+                  </span>
                 </div>
               </div>
             </div>
@@ -98,11 +110,11 @@ export default function TestimonialSection() {
                   designation={`Director TMS.Inc`}
                   avatar={`/assets/images/client/client-1.png`}
                 />
-              </Slider >
+              </Slider>
             </div>
           </div>
         </div>
       </div>
     </section>
-  )
+  );
 }

@@ -13,36 +13,46 @@ export default function FooterTwo() {
             <div className="col-xl-3 col-lg-4 col-md-6">
               <div className="footer-widget text-widget">
                 <Image
-                  src="https://dridatah.com/images/logo-light.png"
+                  src="/assets/images/logo-white.png"
                   alt="logo"
                   width={143}
                   height={44}
                   className="img-fluid"
                 />
                 <p className="my-32 text-white">
-                  Tempus nula rhoncus euismod curae masa cras justo quisque
-                  semper usto molestie primis porttitor{" "}
+                  We don't just build software, we build partnerships. Join the
+                  growing legacy of satisfied Dridatah clients and experience
+                  the difference, every step of the way.{" "}
                 </p>
                 <div className="footer-social">
-                  <Link href="/">
+                  <Link
+                    href="https://www.facebook.com/dridatah"
+                    target="_blank"
+                  >
                     <i className="fab fa-facebook-f"></i>
                   </Link>
-                  <Link href="/">
+                  <Link
+                    href="https://www.linkedin.com/company/13283941"
+                    target="_blank"
+                  >
                     <i className="fab fa-linkedin"></i>
                   </Link>
                   {/* <Link href="/">
                     <i className="fab fa-twitter"></i>
                   </Link> */}
-                  <Link href="/">
+                  <Link
+                    href="https://www.instagram.com/dridatah/"
+                    target="_blank"
+                  >
                     <i className="fab fa-instagram"></i>
                   </Link>
 
                   {/* <Link href="/">
                     <i className="fab fa-behance"></i>
                   </Link> */}
-                  <Link href="/">
+                  {/* <Link href="/">
                     <i className="fab fa-youtube"></i>
-                  </Link>
+                  </Link> */}
                 </div>
               </div>
             </div>
@@ -70,7 +80,7 @@ export default function FooterTwo() {
                 <h6 className="widget-title">Working Time</h6>
                 <ul className="schedule-list">
                   <li>Mon - Fri: 9:00 AM - 5:00 PM</li>
-                  <li>Saturday: 10:00 AM - 6:00 PM</li>
+                  <li>Saturday Closed</li>
                   <li>Sunday Closed</li>
                 </ul>
               </div>
@@ -107,7 +117,7 @@ export default function FooterTwo() {
             </div>
             <div className="col-md-6">
               <div className="copyright-links">
-                <Link href="/">Security</Link>
+                {/* <Link href="/">Security</Link> */}
                 <Link href="/">Privacy & Policy</Link>
                 <Link href="/">Terms & Services</Link>
               </div>

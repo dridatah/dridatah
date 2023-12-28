@@ -7,7 +7,10 @@ import VisibilitySensor from "react-visibility-sensor";
 
 export default function AboutSection() {
   return (
-    <section className="cr-about-section ptb-100 overflow-hidden">
+    <section
+      className="cr-about-section ptb-100 overflow-hidden"
+      id="cr-about-section"
+    >
       <div className="container">
         <div className="row">
           <div className="col-xl-6">
@@ -16,9 +19,9 @@ export default function AboutSection() {
                 Our Team Mates
               </span> */}
               <h2 className="mt-4 mb-60">
-                About Create{" "}
+                About Dridatah{" "}
                 <span className="primary-text-color primary-bg-light px-2">
-                  Agency
+                  Technology
                 </span>
               </h2>
             </div>
@@ -40,7 +43,7 @@ export default function AboutSection() {
               <div className="col-xl-6">
                 <div className="img-left">
                   <Image
-                    src="https://crete-theta.vercel.app/_next/image?url=%2Fassets%2Fimages%2Fhome-2%2Fab-1.jpg&w=1080&q=75"
+                    src="/assets/images/home-2/ab-1.jpg"
                     alt="not found"
                     className="img-fluid rounded-4"
                     width={940}
@@ -54,19 +57,22 @@ export default function AboutSection() {
                     More About Our Company
                   </span>
                   <h3 className="mb-32 mt-4">
-                    We Build Software Solutions For Big Industries
+                    We Build Software Solutions For Startups And Small
+                    Businesses.
                   </h3>
                   <p className="mb-5">
-                    Cras facilisi fringilla nisi sed eget vel quis sollicitudin
-                    sagittis. Hendrerit metus nost magna interdum cum habitant
-                    sodales, sollicitudin tincidunt consequat lacinia
-                    ullamcorper enim aptent
+                    At Dridatah, we partner with startups and small businesses
+                    to unlock their full potential. We provide expert software
+                    development services that deliver practical results,
+                    including increased revenue, streamlined lead generation,
+                    and a stronger online presence. We take pride in helping our
+                    clients achieve their unique goals.
                   </p>
                   <div className="d-flex align-items-center gap-4 flex-wrap flex-sm-nowrap">
-                    <Link href="/about" className="template-btn primary-btn">
+                    {/* <Link href="/about" className="template-btn primary-btn">
                       Learn More
-                    </Link>
-                    <a href="tel:25259214893" className="phone-btn">
+                    </Link> */}
+                    <a href="tel:+919080617982" className="phone-btn">
                       <span className="icon">
                         <svg
                           width="30"
@@ -83,7 +89,7 @@ export default function AboutSection() {
                       </span>
                       <div>
                         <h5 className="mb-1 fw-semibold fs-20">
-                          +25 (259) 214893-23
+                          +91 9080 617 982
                         </h5>
                         <span>For Any Question</span>
                       </div>
@@ -92,7 +98,7 @@ export default function AboutSection() {
                   <div className="d-flex align-items-center cr-tab-counter mt-40 flex-wrap flex-sm-nowrap">
                     <div className="cr-tab-counter-single">
                       <h3 className="fw-semibold primary-text-color mb-0">
-                        <CountUp end={25} redraw={true}>
+                        <CountUp end={1} redraw={true}>
                           {({ countUpRef, start }) => (
                             <VisibilitySensor onChange={start} delayedCall>
                               <span ref={countUpRef} />
@@ -107,7 +113,7 @@ export default function AboutSection() {
                     </div>
                     <div className="cr-tab-counter-single">
                       <h3 className="fw-semibold primary-text-color mb-0">
-                        <CountUp end={375} redraw={true}>
+                        <CountUp end={15} redraw={true}>
                           {({ countUpRef, start }) => (
                             <VisibilitySensor onChange={start} delayedCall>
                               <span ref={countUpRef} />
