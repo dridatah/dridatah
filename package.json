@@ -7,6 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
+    "export": "next export",
     "build-css": "node-sass public/assets/sass/style.scss -o public/assets/css",
     "watch-css": "node-sass public/assets/sass/style.scss -o public/assets/css --watch"
   },

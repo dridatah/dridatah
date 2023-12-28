@@ -75,9 +75,9 @@ export default function HeroSection() {
                 suppressHydrationWarning
                 className="display-2 fw-bold mb-4 wow fadeInUp"
               >
-                Your digital product design{" "}
+                Your Development Partner for Innovative{" "}
                 <span className="primary-bg-light primary-text-color px-2">
-                  agency
+                  Startups.
                 </span>
               </h1>
               <p
@@ -85,8 +85,10 @@ export default function HeroSection() {
                 className="mb-5 lead fw-medium wow fadeInUp"
                 data-wow-delay="0.2s"
               >
-                Malesuada curabitur nascetur viverra sem pulvinar feugiat curae,
-                posuere risus consequat velit bibendum at integer
+                Don't let your brilliant concepts stay on the whiteboard.
+                Dridatah partners with ambitious startups to transform your
+                innovative ideas into reality through custom-built software
+                solutions.
               </p>
               <div className="d-flex align-items-center gap-4 flex-wrap">
                 <Link

@@ -2,6 +2,7 @@
 
 module.exports = {
   nextConfig: {
+    output: "export",
     pageExtensions: ["js", "jsx", "ts", "tsx", "mdx", "html"],
   },
   eslint: {

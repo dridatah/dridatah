@@ -26,11 +26,13 @@ export default function ServiceSection() {
               </h2>
               <p
                 suppressHydrationWarning
-                className="mb-0 text-gray fw-medium wow fadeInUp lead"
+                className="mb-0 text-white fw-medium wow fadeInUp lead"
                 data-wow-delay="0.3s"
               >
-                There are many variations of passages of Lorem Ipsum available,
-                but the majority have suffered alteration, by injected humour.
+                We understand the unique challenges of startups. Dridatah
+                tailors its services to your specific needs, driving your
+                startup's growth from initial concept to ongoing maintenance,
+                every step of the way.
               </p>
             </div>
           </div>
@@ -38,40 +40,48 @@ export default function ServiceSection() {
         <div className="row justify-content-center g-4 mt-60">
           <SingleServiceLayoutOne
             wrapper_class={`col-md-6`}
-            title={`Web Development`}
-            des={`There are many variations of passages of lorem Ipsum available
-                  but to the majority have suffered but the into majority have
-                  suffered alteration`}
+            title={`Product Design`}
+            des={`Craft user-centric experiences that propel your startup's success.`}
             link={`/service/details`}
             thumbnail={`/assets/images/icons/icon-1.svg`}
             data_wow_delay={`0.1s`}
           />
           <SingleServiceLayoutOne
             wrapper_class={`col-md-6`}
-            title={`Digital Marketingt`}
-            des={`There are many variations of passages of lorem Ipsum available
-                  but to the majority have suffered but the into majority have
-                  suffered alteration`}
+            title={`UI Design`}
+            des={`Design stunning interfaces that captivate your audience and elevate your brand.`}
             link={`/service/details`}
             thumbnail={`/assets/images/icons/icon-2.svg`}
             data_wow_delay={`0.2s`}
           />
           <SingleServiceLayoutOne
             wrapper_class={`col-md-6`}
-            title={`Technology Solution`}
-            des={`There are many variations of passages of lorem Ipsum available
-                  but to the majority have suffered but the into majority have
-                  suffered alteration`}
+            title={`Development`}
+            des={`Build a robust and scalable software foundation for your innovative ideas.`}
             link={`/service/details`}
             thumbnail={`/assets/images/icons/icon-4.svg`}
             data_wow_delay={`0.3s`}
           />
           <SingleServiceLayoutOne
             wrapper_class={`col-md-6`}
-            title={`Content Strategy`}
-            des={`There are many variations of passages of lorem Ipsum available
-                  but to the majority have suffered but the into majority have
-                  suffered alteration`}
+            title={`Testing`}
+            des={`Ensure seamless and bug-free user experiences with meticulous testing across all platforms.`}
+            link={`/service/details`}
+            thumbnail={`/assets/images/icons/icon-3.svg`}
+            data_wow_delay={`0.4s`}
+          />
+          <SingleServiceLayoutOne
+            wrapper_class={`col-md-6`}
+            title={`DevOps`}
+            des={`Streamline delivery and deployment, allowing you to focus on what matters most.`}
+            link={`/service/details`}
+            thumbnail={`/assets/images/icons/icon-3.svg`}
+            data_wow_delay={`0.4s`}
+          />
+          <SingleServiceLayoutOne
+            wrapper_class={`col-md-6`}
+            title={`Continuous Support & Maintenance`}
+            des={`Your long-term tech partner, keeping your software performing at its peak for sustained growth.`}
             link={`/service/details`}
             thumbnail={`/assets/images/icons/icon-3.svg`}
             data_wow_delay={`0.4s`}
