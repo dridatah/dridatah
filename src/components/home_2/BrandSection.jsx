@@ -9,7 +9,7 @@ export default function BrandSection() {
     slidesToShow: 6,
     arrows: false,
     autoplay: true,
-    speed: 2500,
+    speed: 3000,
     autoplaySpeed: 0,
     cssEase: "linear",
     responsive: [
@@ -40,6 +40,7 @@ export default function BrandSection() {
       },
     ],
   };
+  // metarck
   return (
     <div className="cr2-brand-section pb-100">
       <div className="container">
@@ -49,7 +50,7 @@ export default function BrandSection() {
               src="assets/images/brands/mavensmark.webp"
               alt="not found"
               className="img-fluid grayscale-invert"
-              width={140}
+              width={125}
               height={60}
             />
           </div>
@@ -62,18 +63,9 @@ export default function BrandSection() {
               height={60}
             />
           </div>
-          {/* <div className="brand-image">
-            <Image
-              src="assets/images/brands/amruta.png"
-              alt="not found"
-              className="img-fluid grayscale"
-              width={120}
-              height={60}
-            />
-          </div> */}
           <div className="brand-image">
             <Image
-              src="assets/images/brands/dailyrevs.webp"
+              src="assets/images/brands/dailyrevs.png"
               alt="not found"
               className="img-fluid grayscale-invert pt-2"
               width={140}
@@ -102,9 +94,18 @@ export default function BrandSection() {
             <Image
               src="assets/images/brands/vione.png"
               alt="not found"
-              className="img-fluid grayscale-invert"
-              width={40}
+              className="img-fluid grayscale"
+              width={160}
               height={60}
+            />
+          </div>
+          <div className="brand-image mt-n2">
+            <Image
+              src="assets/images/brands/amruta.png"
+              alt="not found"
+              className="img-fluid grayscale"
+              width={110}
+              height={55}
             />
           </div>
         </Slider>
