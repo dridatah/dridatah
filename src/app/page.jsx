@@ -20,8 +20,22 @@ import ContactSection from "@/components/home_1/ContactSection";
 
 export const metadata = {
   title: "Dridatah Technology Pvt Ltd",
+  description:
+    "Dridatah is a veteran web and mobile application development company based in Kerala, India.",
   openGraph: {
     title: "Dridatah Technology Pvt Ltd",
+    description:
+      "Dridatah is a veteran web and mobile application development company based in Kerala, India.",
+    url: "https://dridatah.com",
+    siteName: "Dridatah",
+    images: [
+      {
+        url: "https://dridatah.jibi.dev/assets/images/og-meta-image.png",
+        width: 800,
+        height: 600,
+      },
+    ],
+    type: "website",
   },
 };
 
