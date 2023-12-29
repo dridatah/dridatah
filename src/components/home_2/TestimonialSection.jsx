@@ -48,7 +48,7 @@ export default function TestimonialSection() {
               <h2 className="mt-4 mb-32 text-white">
                 What our customers have to say
               </h2>
-              <p className="mb-60 text-white mx-470 fw-medium">
+              <p className="mb-60 text-white mx-470 fw-medium fs-5">
                 Hear How Dridatah Delights Clients with Transformative
                 Solutions.
               </p>
@@ -80,6 +80,24 @@ export default function TestimonialSection() {
           <div className="col-xl-6">
             <div className="cr2-feedback-vertical-slider">
               <Slider {...settings}>
+                <SingleTestimonialLayountTwo
+                  title={`“Dridatah has been with us to develop the platform as it is since the stage of ideation of Entities. The budget-friendly approach ensures satisfaction, enabling entrepreneurs to iterate freely until their vision is realized without feeling financially burdened.”`}
+                  author={`Infin Entities`}
+                  designation={`Founder`}
+                  avatar={`/assets/images/client/client-1.png`}
+                />
+                <SingleTestimonialLayountTwo
+                  title={`“Mavensmark takes pride in legally structuring and establishing Dridatah as a Private Limited Company. Working with the talented team led by Varun has consistently delivered top-notch tech solutions. Dridatah's role in crafting our outstanding website has been crucial since 2017, contributing significantly to Mavensmark's online presence and branding.”`}
+                  author={`Mavensmark`}
+                  designation={`Founder and Chief Consultant`}
+                  avatar={`/assets/images/client/client-1.png`}
+                />
+                <SingleTestimonialLayountTwo
+                  title={`“Mavenstry values the partnership with Dridatah beyond service agreements. Their profound understanding and swift assistance during critical tech issues, especially with cloud and platform needs, make Dridatah an invaluable support pillar for Mavenstry since its inception.”`}
+                  author={`Mavenstry`}
+                  designation={`Founder and CEO`}
+                  avatar={`/assets/images/client/client-1.png`}
+                />
                 <SingleTestimonialLayountTwo
                   title={`“Dridatah has been with us to develop the platform as it is since the stage of ideation of Entities. The budget-friendly approach ensures satisfaction, enabling entrepreneurs to iterate freely until their vision is realized without feeling financially burdened.”`}
                   author={`Infin Entities`}

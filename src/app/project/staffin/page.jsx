@@ -18,7 +18,7 @@ export const metadata = {
     siteName: "Dridatah",
     images: [
       {
-        url: "https://dridatah.jibi.dev/assets/images/og-meta-image.png",
+        url: "https://dridatah.com/assets/images/og-meta-image.png",
         width: 800,
         height: 600,
       },
