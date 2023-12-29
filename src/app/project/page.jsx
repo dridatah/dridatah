@@ -18,6 +18,7 @@ const projects = [
     description:
       "Infin Entities, a company facilitating seamless business registration in India. Delve into the comprehensive array of services provided by Infin Entities, including company registration, compliance filing, and legal assistance. Discover how Infin Entities fulfils its commitment to simplifying and streamlining the business registration process, emphasizing transparent pricing devoid of hidden fees.",
     link: "project/infin",
+    imageUrl: "/assets/images/services/sr-1.jpg",
   },
   {
     title: "Dailyrevs",
@@ -26,6 +27,7 @@ const projects = [
     description:
       " DailyRevs, a leading online platform for car enthusiasts, underwent a transformative upgrade with the collaboration of Dridatah Technology. Struggling with a sluggish and outdated WordPress site, DailyRevs sought a comprehensive solution for enhanced performance, user experience, and visual appeal. The partnership resulted in a cutting-edge web app crafted with Next.js, Tailwind CSS, MongoDB, and Amazon S3, ensuring optimal speed, intuitive design, and reliable content storage. The revamped DailyRevs web app now boasts lightning-fast load times, user-friendly navigation, and a modern aesthetic, attracting a broader audience and elevating brand perception.",
     link: "project/dailyrevs",
+    imageUrl: "/assets/images/services/sr-1.jpg",
   },
   {
     title: "Amruta Designs",
@@ -34,6 +36,7 @@ const projects = [
     description:
       "Amruta Designs, is a renowned clothing store specializing in cotton kurtis, nightwear, and an array of stylish clothing items. With dedicated sections catering to women and children, Amruta Designs stands as a premier destination to enhance your wardrobe with timeless elegance and comfort.",
     link: "project/amruta",
+    imageUrl: "/assets/images/services/sr-1.jpg",
   },
   {
     title: "StaffIn",
@@ -42,6 +45,7 @@ const projects = [
     description:
       "StaffIn is a robust Human Resource Management System (HRMS) designed to simplify HR processes and enhance efficiency for businesses.StaffIn revolutionizes your HR experience with Effortless Payroll Management, Seamless Recruitment and Onboarding,Performance Management, Leave Management, Time and Attendance Tracking. StaffIn's user-friendly interface and mobile accessibility empower HR teams and employees, enhancing convenience and satisfaction. Investing in StaffIn means Reduced administrative burden, Improved employee experience, Enhanced data-driven decision-making. If you're looking for a modern, efficient, and user-friendly HRMS solution, StaffIn is definitely worth considering.",
     link: "project/staffin",
+    imageUrl: "/assets/images/services/sr-1.jpg",
   },
   {
     title: "Empire Duels",
@@ -50,6 +54,7 @@ const projects = [
     description:
       "Conquer empires across blockchains and platforms in this captivating 2D play-to-earn blockchain game! Wield NFTs and resources to forge your own economic destiny in a thriving in-game marketplace. Battle across two blockchains for ultimate conquest, and watch your NFTs become more than just collectibles - they're essential tools and status symbols that will fuel your rise to power. Charming pixelated perfection brings this world to life, immersing you in the empires you build. So buckle up, blockchain gamer - it's time to claim your throne!",
     link: "project/empuireduels",
+    imageUrl: "/assets/images/services/sr-1.jpg",
   },
   {
     title: "Mavensmark",
@@ -58,6 +63,7 @@ const projects = [
     description:
       "Mavensmark is a business consultancy service dedicated to fostering the growth and success of businesses. They excel in a range of services, including business advisory, management consultancy, and market research. Comprising a team of experienced professionals, Mavensmark is devoted to delivering top-notch services to ensure the success of their clients.",
     link: "project/mavensmark",
+    imageUrl: "/assets/images/services/sr-1.jpg",
   },
   {
     title: "United Pest Control",
@@ -66,6 +72,7 @@ const projects = [
     description:
       "United Pest Control successfully enters the online arena with a robust website launch. Specializing in safeguarding homes and businesses from pests, their licensed experts employ safe and effective methods. Committed to excellence, they prioritize customer satisfaction, delivering quality pest control services with a wealth of experience and professionalism.",
     link: "https://unitedpestservice.com/",
+    imageUrl: "/assets/images/services/sr-1.jpg",
   },
   {
     title: "Vione Technologies",
@@ -74,6 +81,7 @@ const projects = [
     description:
       "Vione Technologies, a software development and consulting company. They offer a variety of services, including custom software development, application development, website design, and software maintenance. They also offer BPO services. Vione Technologies has a team of experienced and qualified staff who are able to deliver high quality software development processes.",
     link: "https://www.vionetechnologies.com/",
+    imageUrl: "/assets/images/services/sr-1.jpg",
   },
   {
     title: "Mavenstry",
@@ -81,6 +89,7 @@ const projects = [
     description:
       "Mavenstry is a business management platform that helps you start and manage your business. It takes care of business registration, filing taxes, and managing finances.Mavenstry also provides a secure platform to store your business documents. With Mavenstry, you can focus on what you do best - running your business.",
     link: "https://mavenstry.com/",
+    imageUrl: "/assets/images/services/sr-1.jpg",
   },
 ];
 
@@ -122,7 +131,7 @@ export default function Project() {
                 >
                   <div className="image-wrapper p-4">
                     <Image
-                      src="/assets/images/services/sr-1.jpg"
+                      src={proj.imageUrl}
                       alt="not found"
                       className="img-fluid rounded-3"
                       width={491}

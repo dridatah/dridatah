@@ -156,8 +156,9 @@ export default function Workflow() {
 
                   <p class="mb-0 mt-2">
                     <strong>
-                      Outcome: Moodboarding, UI style guide, Digital Asset
-                      Design, Hi-Fidelity UI
+                      Outcome: Moodboarding, UI Style Guide, Digital Asset
+                      Design, <br />
+                      Hi-Fidelity UI
                     </strong>
                   </p>
                 </div>
