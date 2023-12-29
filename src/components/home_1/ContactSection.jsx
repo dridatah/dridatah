@@ -119,9 +119,9 @@ export default function ContactSection({ wrapper_class }) {
           <div className="col-xl-6">
             <div className="contact-form-box bg-white">
               <h3 className="mb-32">
-                Get a free
+                Get your free&nbsp;
                 <span className="primary-bg-light primary-text-color px-2">
-                  quote now
+                  consultation now
                 </span>
               </h3>
               <form className="contact-form">

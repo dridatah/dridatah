@@ -92,20 +92,20 @@ export default function HeroSection() {
               </p>
               <div className="d-flex align-items-center gap-4 flex-wrap">
                 <Link
-                  href="/about"
+                  href="/contact"
                   suppressHydrationWarning
                   className="template-btn primary-btn wow fadeInUp"
                   data-wow-delay="0.3s"
                 >
-                  Learn More
+                  Get started
                 </Link>
                 <Link
-                  href="/appointment"
+                  href="/#our-service"
                   suppressHydrationWarning
                   className="template-btn outline-secondary wow fadeInUp"
                   data-wow-delay="0.4s"
                 >
-                  Get Started
+                  Learn More
                   <span className="ms-2">
                     <svg
                       width="15"

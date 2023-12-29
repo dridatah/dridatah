@@ -31,9 +31,9 @@ export default function Pricing() {
           <SinglePricingLayoutOne
             title={`Professional`}
             tagline={`Get Discovered, Get Leads: Attract & Convert with Your New Website.`}
-            link={`/`}
-            price={`$15.99`}
-            plan_type={`monthly`}
+            link={`#contact`}
+            price={`₹49,000`}
+            plan_type={`onwards*`}
             data_wow_delay={`0.3s`}
             features={[
               "Static website",
@@ -44,9 +44,9 @@ export default function Pricing() {
           <SinglePricingLayoutOne
             title={`Enterprise`}
             tagline={`Boost Engagement & Conversions: Dynamic Apps, Intuitive CMS - All You Need to Grow.`}
-            link={`/`}
-            price={`$21.99`}
-            plan_type={`monthly`}
+            link={`#contact`}
+            price={`₹1,99,000`}
+            plan_type={`onwards*`}
             data_wow_delay={`0.35s`}
             features={[
               "Dynamic Web Application",
@@ -57,9 +57,9 @@ export default function Pricing() {
           <SinglePricingLayoutOne
             title={`Business`}
             tagline={`Grow Your Audience & Revenue: Integrated Apps, Websites, & Analytics at Your Fingertips.`}
-            link={`/`}
-            price={`$33.99`}
-            plan_type={`monthly`}
+            link={`#contact`}
+            price={`₹3,99,000`}
+            plan_type={`onwards*`}
             data_wow_delay={`0.4s`}
             features={[
               "iOS App",
@@ -67,7 +67,7 @@ export default function Pricing() {
               "Content Management System",
               "Marketing Website/ Landing Page",
               "Analytics Integration",
-              "Backend solutions",
+              "Backend Solutions",
             ]}
           />
         </div>

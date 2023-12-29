@@ -66,7 +66,7 @@ export default function Header({
     >
       <div className="container">
         {/* Infobar section */}
-        <div className="infobar py-2 d-none d-lg-block">
+        <div className="infobar py-3 d-none d-lg-block">
           <div className="row g-4 align-items-center justify-content-between">
             <div className="col-xl-6 col-lg-7">
               {/* Infobar content */}

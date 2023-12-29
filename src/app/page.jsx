@@ -19,9 +19,9 @@ import Pricing from "@/components/home_1/Pricing";
 import ContactSection from "@/components/home_1/ContactSection";
 
 export const metadata = {
-  title: "Crete Personal Portfolio - Homepage-2",
+  title: "Dridatah Technology Pvt Ltd",
   openGraph: {
-    title: "Crete - Crete Personal Portfolio Next js Template",
+    title: "Dridatah Technology Pvt Ltd",
   },
 };
 

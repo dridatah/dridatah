@@ -18,7 +18,7 @@ export default function AboutSection() {
               {/* <span className="cr-subtitle position-relative primary-text-color fw-semibold">
                 Our Team Mates
               </span> */}
-              <h2 className="mt-4 mb-60">
+              <h2 className="mt-4">
                 About Dridatah{" "}
                 <span className="primary-text-color primary-bg-light px-2">
                   Technology

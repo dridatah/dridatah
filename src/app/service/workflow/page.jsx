@@ -10,9 +10,9 @@ import MobileMenu from "@/components/navbar/MobileMenu";
 import React from "react";
 
 export const metadata = {
-  title: "Crete Personal Portfolio - Contact Page",
+  title: "Workflow - Dridatah Technology Pvt Ltd",
   openGraph: {
-    title: "Crete - Crete Personal Portfolio Next js Template",
+    title: "Workflow - Dridatah Technology Pvt Ltd",
   },
 };
 
@@ -27,6 +27,37 @@ export default function Workflow() {
         <div class="container py-5">
           <div class="main-timeline">
             <div class="timeline left">
+              <div class="card light-bg rounded-4 border-0">
+                <div class="card-body p-4">
+                  <h5>Requirement Gathering</h5>
+                  <ul className="srd-feature-list mt-2">
+                    <li>
+                      <span className="me-2">
+                        <i className="fa-regular fa-circle-check"></i>
+                      </span>
+                      Active Listening and Discovery: Gathering requirements and
+                      defining the project scope are the crucial first steps in
+                      understanding the development lifecycle of the entire
+                      product for a software service company.
+                    </li>
+                    <li>
+                      <span className="me-2">
+                        <i className="fa-regular fa-circle-check"></i>
+                      </span>
+                      By listening to the needs and aspirations of our clients,
+                      we can effectively align our delivery with their desired
+                      outcomes.
+                    </li>
+                  </ul>
+                  <p class="mb-0 mt-3">
+                    <strong>
+                      Result: Business Requirement Document, Ballpark Estimate
+                    </strong>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="timeline right">
               <div class="card light-bg rounded-4 border-0">
                 <div class="card-body p-4">
                   <h5>Product Design</h5>
@@ -56,7 +87,7 @@ export default function Workflow() {
                 </div>
               </div>
             </div>
-            <div class="timeline right">
+            <div class="timeline left">
               <div class="card light-bg rounded-4 border-0">
                 <div class="card-body p-4">
                   <h5>Project Planning</h5>
@@ -88,7 +119,7 @@ export default function Workflow() {
                 </div>
               </div>
             </div>
-            <div class="timeline left">
+            <div class="timeline right">
               <div class="card light-bg rounded-4 border-0">
                 <div class="card-body p-4">
                   <h5>UI Design</h5>
@@ -120,7 +151,7 @@ export default function Workflow() {
                 </div>
               </div>
             </div>
-            <div class="timeline right">
+            <div class="timeline left">
               <div class="card light-bg rounded-4 border-0">
                 <div class="card-body p-4">
                   <h5>Development</h5>
@@ -145,7 +176,7 @@ export default function Workflow() {
                 </div>
               </div>
             </div>
-            <div class="timeline left">
+            <div class="timeline right">
               <div class="card light-bg rounded-4 border-0">
                 <div class="card-body p-4">
                   <h5>Testing</h5>
@@ -170,7 +201,7 @@ export default function Workflow() {
                 </div>
               </div>
             </div>
-            <div class="timeline right">
+            <div class="timeline left">
               <div class="card light-bg rounded-4 border-0">
                 <div class="card-body p-4">
                   <h5>DevOps</h5>
@@ -196,7 +227,7 @@ export default function Workflow() {
               </div>
             </div>
           </div>
-          <div class="timeline left">
+          <div class="timeline right">
             <div class="card light-bg rounded-4 border-0">
               <div class="card-body p-4">
                 <h5>Continuous Support and Maintenance</h5>

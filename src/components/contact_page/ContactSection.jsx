@@ -19,7 +19,7 @@ export default function ContactSection() {
             <ContactBox
               thumbnail={`/assets/images/contact/ct-2.jpg`}
               icon={`/assets/images/icons/icon-15.svg`}
-              title={`Make a Quote`}
+              title={`Get a quote`}
               subtitle={`info@dridatah.com`}
             />
           </div>

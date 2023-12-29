@@ -3,7 +3,7 @@ import React from "react";
 
 export default function HeaderNavbar() {
   return (
-    <nav className="crete-navmenu text-right ps-xl-5">
+    <nav className="crete-navmenu text-center ps-xl-5">
       <ul>
         {/* <li className="has-submenu">
           <Link href="/">Home</Link>
@@ -21,6 +21,10 @@ export default function HeaderNavbar() {
         {/* <li>
           <Link href="#cr-about-section">About</Link>
         </li> */}
+
+        <li>
+          <Link href="/service/workflow">Workflow</Link>
+        </li>
 
         <li>
           <Link href="/project">Projects</Link>

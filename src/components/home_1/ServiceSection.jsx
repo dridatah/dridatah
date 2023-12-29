@@ -4,7 +4,10 @@ import SingleServiceLayoutOne from "../single/service/SingleServiceLayoutOne";
 
 export default function ServiceSection() {
   return (
-    <section className="service-section ptb-100 dark-bg-color position-relative z-1 overflow-hidden">
+    <section
+      id="our-service"
+      className="service-section ptb-100 dark-bg-color position-relative z-1 overflow-hidden"
+    >
       <span className="circle-shape-1 position-absolute z--1"></span>
       <span className="circle-shape-2 position-absolute z--1"></span>
       <div className="container">

@@ -10,9 +10,9 @@ import MobileMenu from "@/components/navbar/MobileMenu";
 import React from "react";
 
 export const metadata = {
-  title: "Crete Personal Portfolio - Contact Page",
+  title: "Contact - Dridatah Technology Pvt Ltd",
   openGraph: {
-    title: "Crete - Crete Personal Portfolio Next js Template",
+    title: "Contact - Dridatah Technology Pvt Ltd",
   },
 };
 
