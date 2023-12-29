@@ -72,7 +72,7 @@ export default function Header({
               {/* Infobar content */}
               <div className="infobar-content d-flex align-items-center">
                 <a
-                  href="tel:1044123456789"
+                  href="tel:+919080617982"
                   className={`mb-0 fs-sm fw-semibold ${
                     layout === 1 && "text-white"
                   }`}

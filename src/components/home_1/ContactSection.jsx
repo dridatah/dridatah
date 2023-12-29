@@ -85,7 +85,7 @@ export default function ContactSection({ wrapper_class }) {
                   </span>
                   <div>
                     <span className="fw-medium fs-xl">Call Us</span>
-                    <a href="tel:0045611227890">
+                    <a href="tel:+919080617982">
                       <h6 className="mb-0 text-white fw-semibold mt-1">
                         +91 9080 617 982
                       </h6>
