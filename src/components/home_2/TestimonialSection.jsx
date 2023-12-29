@@ -81,37 +81,19 @@ export default function TestimonialSection() {
             <div className="cr2-feedback-vertical-slider">
               <Slider {...settings}>
                 <SingleTestimonialLayountTwo
-                  title={`“Dridatah has been with us to develop the platform as it is since the stage of ideation of Entities. We are extremely happy and satisfied with the work and output they have provided to make the platform into a reality. They work in an extreme budget friendly manner that we never feel like our pocket is heavily charged by the tech team. This gives opportunity to all budding entrepreneurs to try and fail and repeat the cycle till the vision and mission is accomplished.”`}
+                  title={`“Dridatah has been with us to develop the platform as it is since the stage of ideation of Entities. The budget-friendly approach ensures satisfaction, enabling entrepreneurs to iterate freely until their vision is realized without feeling financially burdened.”`}
                   author={`Infin Entities`}
                   designation={`Founder`}
                   avatar={`/assets/images/client/client-1.png`}
                 />
                 <SingleTestimonialLayountTwo
-                  title={`“It is an absolute pride to be the person who got the opportunity to legally structure and form Dridatah into a Private Limited Company and subsequently work with these very talented, professional and friendly techie entrepreneurs in all my tech related endeavours thereafter. I must say, the quality of output is cent percent assured if tech building is managed by Dridatah headed by Varun and Co. I received so much appreciation for our excellent website and Dridatah played a pivotal role in the online presence and branding of Mavensmark since 2017.”`}
+                  title={`“Mavensmark takes pride in legally structuring and establishing Dridatah as a Private Limited Company. Working with the talented team led by Varun has consistently delivered top-notch tech solutions. Dridatah's role in crafting our outstanding website has been crucial since 2017, contributing significantly to Mavensmark's online presence and branding.”`}
                   author={`Mavensmark`}
                   designation={`Founder and Chief Consultant`}
                   avatar={`/assets/images/client/client-1.png`}
                 />
                 <SingleTestimonialLayountTwo
-                  title={`“The association of Mavenstry with Dridatah goes beyond service level agreements. They have showcased extreme levels of understanding when we faced some critical problems with respect to our tech side. Varun and team were always available almost immediately to support us with the cloud, platform and other related requirements. Dridatah has been the pillar of support for Mavenstry since our inception.”`}
-                  author={`Mavenstry`}
-                  designation={`Founder and CEO`}
-                  avatar={`/assets/images/client/client-1.png`}
-                />
-                <SingleTestimonialLayountTwo
-                  title={`“Dridatah has been with us to develop the platform as it is since the stage of ideation of Entities. We are extremely happy and satisfied with the work and output they have provided to make the platform into a reality. They work in an extreme budget friendly manner that we never feel like our pocket is heavily charged by the tech team. This gives opportunity to all budding entrepreneurs to try and fail and repeat the cycle till the vision and mission is accomplished.”`}
-                  author={`Infin Entities`}
-                  designation={`Founder`}
-                  avatar={`/assets/images/client/client-1.png`}
-                />
-                <SingleTestimonialLayountTwo
-                  title={`“It is an absolute pride to be the person who got the opportunity to legally structure and form Dridatah into a Private Limited Company and subsequently work with these very talented, professional and friendly techie entrepreneurs in all my tech related endeavours thereafter. I must say, the quality of output is cent percent assured if tech building is managed by Dridatah headed by Varun and Co. I received so much appreciation for our excellent website and Dridatah played a pivotal role in the online presence and branding of Mavensmark since 2017.”`}
-                  author={`Mavensmark`}
-                  designation={`Founder and Chief Consultant`}
-                  avatar={`/assets/images/client/client-1.png`}
-                />
-                <SingleTestimonialLayountTwo
-                  title={`“The association of Mavenstry with Dridatah goes beyond service level agreements. They have showcased extreme levels of understanding when we faced some critical problems with respect to our tech side. Varun and team were always available almost immediately to support us with the cloud, platform and other related requirements. Dridatah has been the pillar of support for Mavenstry since our inception.”`}
+                  title={`“Mavenstry values the partnership with Dridatah beyond service agreements. Their profound understanding and swift assistance during critical tech issues, especially with cloud and platform needs, make Dridatah an invaluable support pillar for Mavenstry since its inception.”`}
                   author={`Mavenstry`}
                   designation={`Founder and CEO`}
                   avatar={`/assets/images/client/client-1.png`}

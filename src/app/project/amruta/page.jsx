@@ -12,7 +12,7 @@ export const metadata = {
   openGraph: {
     title: "Amruta Designs - Dridatah Technology Pvt Ltd",
     description:
-      "Dridatah is a veteran web and mobile application development company based in Kerala, India.",
+      "Dridatah partners with ambitious startups to transform your innovative ideas into reality through custom-built software solutions. Don't let your brilliant concepts stay on the whiteboard.",
     url: "https://dridatah.com",
     siteName: "Dridatah",
     images: [

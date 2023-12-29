@@ -62,9 +62,10 @@ const projects = [
   {
     title: "United Pest Control",
     subTitle:
-      "United Pest Control Crawls into Online Success with a Powerful Website Launch",
+      "United Pest Control Triumphs Online with a Powerful Website Launch, Elevating Pest Control Solutions for Homes and Businesses.",
     description:
-      "United Pest Control provides services for homes and businesses to protect them from unwanted pests. They are licensed and experienced professionals who use safe and effective methods. They are committed to providing quality service and customer satisfaction.",
+      "United Pest Control successfully enters the online arena with a robust website launch. Specializing in safeguarding homes and businesses from pests, their licensed experts employ safe and effective methods. Committed to excellence, they prioritize customer satisfaction, delivering quality pest control services with a wealth of experience and professionalism.",
+    link: "https://unitedpestservice.com/",
   },
   {
     title: "Vione Technologies",
@@ -72,12 +73,14 @@ const projects = [
       "Boosted Vione Technologies’ Online Presence Through a Robust Website",
     description:
       "Vione Technologies, a software development and consulting company. They offer a variety of services, including custom software development, application development, website design, and software maintenance. They also offer BPO services. Vione Technologies has a team of experienced and qualified staff who are able to deliver high quality software development processes.",
+    link: "https://www.vionetechnologies.com/",
   },
   {
     title: "Mavenstry",
     subTitle: "A Web Application To Streamline Your Business Operations",
     description:
       "Mavenstry is a business management platform that helps you start and manage your business. It takes care of business registration, filing taxes, and managing finances.Mavenstry also provides a secure platform to store your business documents. With Mavenstry, you can focus on what you do best - running your business.",
+    link: "https://mavenstry.com/",
   },
 ];
 
@@ -86,7 +89,7 @@ export const metadata = {
   openGraph: {
     title: "Projects - Dridatah Technology Pvt Ltd",
     description:
-      "Dridatah is a veteran web and mobile application development company based in Kerala, India.",
+      "Dridatah partners with ambitious startups to transform your innovative ideas into reality through custom-built software solutions. Don't let your brilliant concepts stay on the whiteboard.",
     url: "https://dridatah.com",
     siteName: "Dridatah",
     images: [
@@ -139,7 +142,30 @@ export default function Project() {
                       {proj.subTitle}
                     </p>
                     <p className="mb-4">{proj.description}</p>
-                    {proj?.link ? (
+                    {proj.link.includes("https") ? (
+                      <Link
+                        href={proj.link}
+                        suppressHydrationWarning
+                        className="template-btn outline-secondary mt-3"
+                        target="_blank"
+                      >
+                        Learn More
+                        <span className="ms-2">
+                          <svg
+                            width="15"
+                            height="13"
+                            viewBox="0 0 15 13"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              d="M13.6875 7.71875L8.6875 12.7188C8.5 12.9062 8.25 13 8 13C7.71875 13 7.46875 12.9062 7.28125 12.7188C6.875 12.3438 6.875 11.6875 7.28125 11.3125L10.5625 8H1C0.4375 8 0 7.5625 0 7C0 6.46875 0.4375 6 1 6H10.5625L7.28125 2.71875C6.875 2.34375 6.875 1.6875 7.28125 1.3125C7.65625 0.90625 8.3125 0.90625 8.6875 1.3125L13.6875 6.3125C14.0938 6.6875 14.0938 7.34375 13.6875 7.71875Z"
+                              fill="#1F1F1F"
+                            />
+                          </svg>
+                        </span>
+                      </Link>
+                    ) : (
                       <Link href={proj.link} className="explore-btn">
                         <button
                           type="submit"
@@ -148,7 +174,7 @@ export default function Project() {
                           See Case Study
                         </button>
                       </Link>
-                    ) : null}
+                    )}
                   </div>
                 </div>
               </div>
