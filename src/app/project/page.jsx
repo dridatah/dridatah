@@ -130,7 +130,14 @@ export default function Project() {
                 <div class="col-xl-7">
                   <div className="p-4">
                     <h6 className="">{proj.title}</h6>
-                    <p className="fw-bold mb-3">{proj.subTitle}</p>
+                    <p
+                      className="fw-bold mb-3"
+                      style={{
+                        fontSize: "18px",
+                      }}
+                    >
+                      {proj.subTitle}
+                    </p>
                     <p className="mb-4">{proj.description}</p>
                     {proj?.link ? (
                       <Link href={proj.link} className="explore-btn">

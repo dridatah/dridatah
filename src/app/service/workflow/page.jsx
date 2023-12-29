@@ -63,7 +63,7 @@ export default function Workflow() {
                   </ul>
                   <p class="mb-0 mt-3">
                     <strong>
-                      Result: Business Requirement Document, Ballpark Estimate
+                      Outcome: Business Requirement Document, Ballpark Estimate
                     </strong>
                   </p>
                 </div>
@@ -93,7 +93,7 @@ export default function Workflow() {
                   </ul>
                   <p class="mb-0 mt-3">
                     <strong>
-                      Result: Wireframe, Software Requirements Specification
+                      Outcome: Wireframe, Software Requirements Specification
                     </strong>
                   </p>
                 </div>
@@ -124,7 +124,7 @@ export default function Workflow() {
 
                   <p class="mb-0 mt-2">
                     <strong>
-                      Result: Milestone Plan, Effort Estimation, Sprint Plan,
+                      Outcome: Milestone Plan, Effort Estimation, Sprint Plan,
                       Cost Analysis
                     </strong>
                   </p>
@@ -156,7 +156,7 @@ export default function Workflow() {
 
                   <p class="mb-0 mt-2">
                     <strong>
-                      Result : Moodboarding, UI style guide, Digital Asset
+                      Outcome: Moodboarding, UI style guide, Digital Asset
                       Design, Hi-Fidelity UI
                     </strong>
                   </p>

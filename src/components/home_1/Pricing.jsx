@@ -36,7 +36,7 @@ export default function Pricing() {
             plan_type={`onwards*`}
             data_wow_delay={`0.3s`}
             features={[
-              "Static website",
+              "Static Website",
               "Corporate Branding",
               "Business Email Setup",
             ]}
@@ -51,7 +51,7 @@ export default function Pricing() {
             features={[
               "Dynamic Web Application",
               "Content Management System",
-              "Backend solutions",
+              "Backend Solutions",
             ]}
           />
           <SinglePricingLayoutOne

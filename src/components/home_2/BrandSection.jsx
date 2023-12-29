@@ -99,12 +99,21 @@ export default function BrandSection() {
               height={60}
             />
           </div>
-          <div className="brand-image mt-n2">
+          <div className="brand-image">
             <Image
               src="assets/images/brands/amruta.png"
               alt="not found"
               className="img-fluid grayscale"
               width={110}
+              height={55}
+            />
+          </div>
+          <div className="brand-image mt-2">
+            <Image
+              src="assets/images/brands/arkbuilders.png"
+              alt="not found"
+              className="img-fluid grayscale"
+              width={140}
               height={55}
             />
           </div>

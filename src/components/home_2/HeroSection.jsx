@@ -99,7 +99,7 @@ export default function HeroSection() {
                 >
                   Get started
                 </Link>
-                <Link
+                {/* <Link
                   href="/#our-service"
                   suppressHydrationWarning
                   className="template-btn outline-secondary wow fadeInUp"
@@ -120,7 +120,7 @@ export default function HeroSection() {
                       />
                     </svg>
                   </span>
-                </Link>
+                </Link> */}
               </div>
             </div>
           </div>
