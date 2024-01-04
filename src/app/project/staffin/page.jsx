@@ -43,7 +43,7 @@ export default function ProjectDetails() {
             <div className="col-12">
               <div className="feature-image mb-5">
                 <Image
-                  src="/assets/images/banner/project-banner-lg.jpg"
+                  src="/assets/images/projects/1921_hrms_option.png"
                   alt="not found"
                   className="img-fluid rounded-4"
                   width={1921}
@@ -177,7 +177,7 @@ export default function ProjectDetails() {
                 <div className="d-flex align-items-center gap-4 mb-40">
                   <div className="feature-image">
                     <Image
-                      src="/assets/images/projects/pd-1.jpg"
+                      src="/assets/images/projects/hrms_611.png"
                       alt="feature image"
                       className="img-fluid rounded-4"
                       width={611}
@@ -186,7 +186,7 @@ export default function ProjectDetails() {
                   </div>
                   <div className="feature-image">
                     <Image
-                      src="/assets/images/projects/pd-2.jpg"
+                      src="/assets/images/projects/hrms_611-2.png"
                       alt="feature image"
                       className="img-fluid rounded-4"
                       width={611}
