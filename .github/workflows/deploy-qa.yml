@@ -1,0 +1,17 @@
+name: DEPLOY-QA
+on:
+  push:
+    branches: [v2]
+
+jobs:
+  DEPLOY-QA:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Commence deployment
+        uses: appleboy/ssh-action@master
+        with:
+          host: ${{ secrets.QA_HOST }}
+          username: ${{ secrets.USERNAME }}
+          key: ${{ secrets.SSH_KEY }}
+          script: ${{ secrets.QA_DEPLOY_SCRIPT }}
+          script_stop: true

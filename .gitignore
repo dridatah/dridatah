@@ -1,0 +1,7 @@
+node_modules
+.next/
+upload/
+out/
+
+
+**/.DS_Store

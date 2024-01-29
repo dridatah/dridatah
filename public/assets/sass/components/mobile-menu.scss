@@ -1,0 +1,176 @@
+/****************** offcanvus start **************/
+.offcanvus-box {
+    width: 425px;
+    z-index: 100;
+    top: 0;
+    right: -430px;
+    height: 100vh;
+    overflow-y: scroll;
+    transition: var(--transition-base);
+    box-shadow: var(--box-shadow);
+    &.active {
+        right: 0;
+    }
+    .offcanvus-close {
+        position: absolute;
+        left: 30px; 
+        top: 30px;
+        color: var(--primary-color);
+        &:hover {
+            color: var(--headings-color);
+        }
+    }
+    .content-top {
+        text-align: center;
+        padding: 120px 60px 100px;
+        p {
+            line-height: 26px;
+        }
+    }
+    .offcanvus-gallery {
+        padding: 0 40px;
+        gap: 10px;
+        a {
+            width: calc(33% - 6px);
+            overflow: hidden;
+            img {
+                max-width: 100%;
+                transition: var(--transition-base); 
+                &:hover {
+                    transform: scale(1.1);
+                }
+            }
+        }
+    }
+    .offcanvus-newsletter {
+        padding: 100px 40px;
+        input {
+            transition: var(--transition-base);
+            &:focus {
+                border-color: var(--primary-color);
+            }
+        }
+    }
+    .offcanvus-bottom {
+        border-top: 1px solid var(--border-color);
+        padding: 20px 40px;
+    }
+    .user-links {
+        a {
+            color: var(--primary-color);
+            &:hover {
+                color: var(--secondary-color);
+            }
+        }
+    }
+}
+
+.language-switcher {
+    button {
+        font-size: 15px;
+        img {
+            margin-right: 8px;
+        }
+    }
+    .dropdown-menu {
+        border-radius: 0;
+        border-color: var(--gray-color);
+        li {
+            + li {
+                border-top: 1px solid var(--light-color);
+            }
+            a {
+                padding: 4px 12px;
+                display: block;
+                color: var(--primary-color);
+                font-size: 15px;
+                img {
+                    margin-right: 8px;
+                    max-width: 29px;
+                }
+            }
+        }
+    }
+}
+
+
+/************************ mobile menu start ****************/
+.mobile-menu {
+    width: 300px;
+    height: 100vh;
+    position: fixed;
+    top: 0; 
+    left: -310px;
+    background-color: var(--white-color);
+    z-index: 60;
+    padding: 60px 24px;
+    overflow-y: scroll;
+    transition: var(--transition-base);
+    .close {
+        position: absolute;
+        right: 20px;
+        top: 20px;
+        color: var(--primary-color); 
+        &:hover {
+            color: var(--headings-color);
+        }
+    }
+    .logo {
+        width: 100%;
+        display: block;
+        background-color: var(--primary-color);
+        text-align: center;
+        padding: 30px;
+        border-radius: 10px;
+    }
+    .mobile-nav-menu {
+        margin-top: 32px;
+        li {
+            display: block;
+            + li {
+                border-top: 1px solid var(--light-stroke);
+            }
+            a {
+                display: block;
+                color: var(--headings-color);
+                padding: 10px 0;
+                font-weight: 600;
+                &:hover {
+                    color: var(--primary-color);
+                }
+            }
+            &.has-submenu {
+                position: relative;
+                & > i {
+                    position: absolute;
+                    right: 0;
+                    top: 6px;
+                    padding: 8px;
+                    transition: var(--transition-base);
+                    &.icon-rotate {
+                        transform: rotate(180deg);
+                    }
+                }
+                & > .submenu-wrapper {
+                    padding-left: 15px;
+                    display: none;
+                }
+            }
+        }
+    }
+    .mobile-search {
+        input {
+            width: 100%;
+        }
+        button {
+            span {
+                padding: 0;
+                width: 50px; 
+                height: 50px;
+            }
+        }
+    }
+    &.active {
+        left: 0;
+    }
+}
