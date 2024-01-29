@@ -1,0 +1,18 @@
+[
+  {
+    "title": "Home",
+    "link": "#"
+  },
+  {
+    "title": "Workflow",
+    "link": "/service/workflow"
+  },
+  {
+    "title": "Project",
+    "link": "/project"
+  },
+  {
+    "title": "Contact",
+    "link": "/contact"
+  }
+]

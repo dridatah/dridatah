@@ -1,0 +1,75 @@
+.accordion {
+    .accordion-item {
+        + .accordion-item {
+            margin-top: 20px;
+        }
+    }
+}
+.accordion-item {
+    background-color: var(--light-bg-2);
+    border: 0;
+    padding: 40px 34px;
+    border-radius: 15px;
+    .accordion-header {
+        a {
+            font-size: 24px;
+            font-weight: 600;
+            color: var(--headings-color);
+            display: block;
+            position: relative;
+            padding-right: 42px;
+            &::after {
+                content: '\f106';
+                position: absolute;
+                right: 0;
+                top: -10px; 
+                width: 50px;
+                height: 50px;
+                background-color: var(--primary-color);
+                color: var(--white-color);
+                border-radius: 10px; 
+                font-family: 'FontAwesome';
+                font-size: 16px;
+                text-align: center;
+                line-height: 50px;
+            }
+            &.collapsed {
+                &::after {
+                    content: '\f107';
+                }
+            }
+        }
+    }
+    .accordion-body {
+        margin-top: 32px;
+        p {
+            color: var(--text-color);
+        }
+    }
+    .feature-image {
+        width: 150px;
+        flex-shrink: 0;
+    }
+}
+
+.newsletter-section {
+    background-repeat: no-repeat; 
+    background-size: cover;
+}
+
+form.newsletter-form {
+    input {
+        width: 100%;
+        padding: 18px 20px;
+        background-color: var(--white-color);
+        border: 0;
+        border-radius: 4px;
+    }
+    .template-btn {
+        border-radius: 5px;
+    }
+    @include screen-768 {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}

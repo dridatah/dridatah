@@ -1,0 +1,14 @@
+{
+  "apps": [
+    {
+      "name": "q-dridatah",
+      "cwd": "/var/www/dridatah/landing",
+      "script": "npm",
+      "args": "start",
+      "env": {
+        "NODE_ENV": "production",
+        "PORT": 7089
+      }
+    }
+  ]
+}
